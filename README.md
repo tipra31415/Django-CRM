@@ -1,3 +1,5 @@
+**Django CRM**
+
 
 A simple Customer Relationship Management (CRM) system built with Django. This application allows users to manage customer records with full CRUD operations, user authentication, and a clean interface.
 Features
