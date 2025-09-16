@@ -24,29 +24,48 @@ Python: 3.13.3
 **Quick Start**
 Follow these steps to get the project running locally:
 1. Clone the Repository
-bashgit clone https://github.com/yourusername/Django-CRM.git
-cd Django-CRM
+```bash
+git clone https://github.com/username/repo.git
+cd repo
+```
 2. Create Virtual Environment
-bashpython -m venv venv
+```bash
+ python -m venv venv
+```
 3. Activate Virtual Environment
 Windows (PowerShell/CMD):
-bashvenv\Scripts\activate
+```bash
+ venv\Scripts\activate
+```
 Windows (Git Bash):
-bashsource venv/Scripts/activate
+```bash
+ source venv/Scripts/activate
+```
 macOS/Linux:
-bashsource venv/bin/activate
+```bash
+ source venv/bin/activate
+```
 4. Install Dependencies
-bashpip install django
+```bash
+ pip install django
+```
 5. Navigate to Project Directory
-bashcd dcrm
+```bash
+ cd dcrm
+```
 6. Setup Database
-bashpython manage.py makemigrations
-python manage.py migrate
+```bash
+ python manage.py makemigrations
+ python manage.py migrate
+```
 7. Create Admin User (Optional)
-bashpython manage.py createsuperuser
-Follow the prompts to create your admin account.
+```bash
+python manage.py createsuperuser
+```
 8. Run Development Server
-bashpython manage.py runserver
+```bash
+python manage.py runserver
+```
 9. Access the Application
 Open your web browser and go to:
 http://127.0.0.1:8000/
